@@ -1,73 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>Maura Fortino - Bootstrap</title>
 </head>
-<body>
-    
-    <div class="container">
 
-        <header>
-            <div class="title">
-                <h1><a class="home" href="#">Maura Fortino</a></h1>
-                
-                <nav>
-                        <a href="#" class="active">About Me</a>
-                        <span>&#124;</span>
-                        <a href="portfolio.html">Portfolio</a>
-                        <span>&#124;</span>
-                        <a href="contact.html">Contact</a>
-                </nav>
+<body>
+
+    <nav class="navbar navbar-expand-md d-md-inline-flex flex-column flex-md-row">
+        <a class="navbar-brand align-self-stretch ml-md-3" href="#">Maura Fortino</a>
+        <div class="navbar-nav d-flex flex-row justify-content-center justify-content-md-end mr-md-3">
+            <a class="nav-item nav-link active" href="#">About Me <span class="sr-only">(current)</span></a>
+            <span class="px-1">&#124</span>
+            <a class="nav-item nav-link" href="#">Portfolio</a>
+            <span class="px-1">&#124</span>
+            <a class="nav-item nav-link" href="#">Contact</a>
+        </div>
+    </nav>
+
+    <div class="container ml-md-5 my-5">
+        <div class="row">
+            <div class="col-md-9 main-content">
+
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="py-3 m-4">About Me</h2>
+                    </div>
+                </div>
+
+                <div class="row px-4">
+                    <div class="col-12">
+                        <div class="content-wrapper">
+                            <img class="img-fluid d-none d-md-inline float-left w-50 pr-4" src="assets/images/profilepic.jpg"
+                                alt="a photo of me">
+                            <img class="img-fluid d-block d-md-none w-100" src="assets/images/profilepic.jpg"
+                                alt="a photo of me">
+                            <p class="px-1 pt-sm-3">
+                                Hi I'm Maura - I'm 24 years old. I was born in Philadelphia and grew up playing
+                                soccer
+                                starting from the
+                                age of four
+                                and played all through out college at Capital Univeristy in Columbus, OH. I studied
+                                Communications with
+                                an
+                                emphasis in Public Relations and soon after graduating in 2016 learned that this was
+                                not
+                                the
+                                career for
+                                me.
+                                I wish I would have figured that out in college.
+                            </p>
+                            <p class="px-1">
+                                After moving home from Columbus, I started self teaching myself how to code while
+                                looking
+                                for a job as a
+                                way to gain some more skills
+                                and then realized that I liked it enough to possibly make a career out of it.
+                                Currently,I
+                                work in
+                                fundraising at a
+                                local university, but am looking to make a career change into the tech field.
+                                Outside of
+                                coding, my
+                                hobbies include:
+                                <ul>
+                                    <li>reading - last year I read 52 books in 52 weeks</li>
+                                    <li>learning new languages - I am almost fluent in Spanish and I'm learning
+                                        Italian
+                                    </li>
+                                    <li>travelling - I want to travel to all 50 states before I turn 50</li>
+                                </ul>
+                            </p>
+                            <p class="px-1">
+                                If anyone has any book recommendations, please send them my way - or if you're in
+                                need
+                                of
+                                some, let me
+                                know
+                                I love sharing my favorite reads with people. I also just got back into playing
+                                Pok&#233;monGo so if
+                                anyone wants to be friends
+                                on that - dm me on slack!
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </header>
-        <section class="clearfix">
-            <div>
-                <h2>About Me</h2>
-            </div>
-    
-            <hr>
-    
-            <div>
-                <img src="assets/images/profilepic.jpg" alt="a photo of me" class="profile-pic">
-            </div>
-            <p>
-                Hi I'm Maura - I'm 24 years old. I was born in Philadelphia and grew up playing soccer starting from the age of four
-                and played all through out college at Capital Univeristy in Columbus, OH. I studied Communications with an 
-                emphasis in Public Relations and soon after graduating in 2016 learned that this was not the career for me. 
-                I wish I would have figured that out in college.
-            </p>
-            <p>
-                After moving home from Columbus, I started self teaching myself how to code while looking for a job as a way to gain some more skills
-                and then realized that I liked it enough to possibly make a career out of it. Currently,I work in fundraising at a 
-                local university, but am looking to make a career change into the tech field.  Outside of coding, my hobbies include:
-                    <ul>
-                        <li>reading - last year I read 52 books in 52 weeks</li>
-                        <li>learning new languages - I am almost fluent in Spanish and I'm learning Italian</li>
-                        <li>travelling - I want to travel to all 50 states before I turn 50</li>
-                    </ul>
-            </p>
-            <p>
-                If anyone has any book recommendations, please send them my way - or if you're in need of some, let me know
-                I love sharing my favorite reads with people. I also just got back into playing Pok&#233;monGo so if anyone wants to be friends
-                on that - dm me on slack!
-            </p>
-        </section>
+        </div>
     </div>
-    
-    <footer>
-        <span class="copyright">Copyright &copy;</span>
+    </div>
+
+    <footer class="mt-5 p-3">
+        <span class="copyright">&copy; Copyright</span>
     </footer>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

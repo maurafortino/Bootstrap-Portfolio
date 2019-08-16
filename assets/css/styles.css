@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+body {
+   background-image: url('../images/texturetastic_gray_@2X.png');
+}
+
+.main-content{
+    background-color: white;
+}
+
+body nav.navbar {
+    padding: 0px;
+}
+nav {
+    width: 100%;
+    background-color: white;
+}
+
+.navbar-brand{
+    background-color: rgb(64, 156, 149);
+    color: white;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar-nav{
+    width: 100%;
+    
+}
+
+.navbar .navbar-nav .nav-link{
+    padding: 3px;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+}
+
+h2{
+    color: rgb(64, 156, 149);
+    border-bottom: solid lightgray 3px;
+    margin-left: 0;
+}
+
+.navbar{
+    border-bottom: 2px lightgray solid;
+}
+
+footer{
+    border-top: 5px rgb(64, 156, 149) solid;
+    background-color: rgb(83, 83, 83);
+}
