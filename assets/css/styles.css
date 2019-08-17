@@ -73,7 +73,6 @@ h5 {
     color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 1rem;
-    
 }
 
 p{
@@ -124,4 +123,12 @@ footer span{
 
 .card{
     border: none;
+}
+
+#card-img-overlay{
+    position: absolute;
+    bottom: 0;
+    top: 5;
+    left: 0;
+    right: 0;
 }
