@@ -1,0 +1,100 @@
+body{
+    background-image: url('../images/background.jpg');
+    background-size: 100%;
+}
+
+input{
+    margin-right: 20px;
+}
+
+#start-container{
+    background-color:rgb(255, 165, 0);
+}
+
+#start-container, #end-container, #timer{
+    height: 250px;
+    width: 600px;
+    text-align: center;
+    padding: 0;
+}
+#game-container{
+    width: 600px;
+    text-align: center;
+    padding: 0;
+}
+#game-container, #end-container{
+    display: none;
+}
+
+#timer{
+    background-color: rgb(245, 208, 51);
+    height: 100px;
+    font-size: 4rem;
+}
+
+p{
+    margin: 0;
+    border: black solid 1px;
+}
+.question-one, .question-five{
+    background-color: rgb(143, 60, 24);
+}
+
+.question-two, .question-six{
+    background-color: rgb(55, 10 ,13);
+}
+
+.question-three, .question-seven{
+    background-color: rgb(78, 102, 159);
+}
+
+.question-four, .question-eight{
+    background-color: rgb(36, 77, 33);
+}
+/* p:hover{
+    background-color: rgba(50, 124, 147, .8);
+    font-weight: bold;
+} */
+
+h4{
+    margin: 0;
+}
+
+h5{
+    margin: 10px;
+}
+
+.directions{
+    border: none;
+    margin: 10px;
+}
+
+.directions:hover{
+    font-weight: normal;
+}
+
+button{
+    border: none;
+    background-color: rgba(225, 225, 225, .8);
+    width: 90%;
+}
+
+.trivia{
+    background-color: rgb(13, 28, 71);
+    color: rgba(125, 177, 238);
+}
+
+.question{
+    background-color: rgba(125, 177, 238);
+    color: rgb(13, 28, 71);
+}
+
+.scores{
+    background-color: rgb(29, 67, 24);
+    color: white;
+}
+
+.end-game-button{
+    background-color: rgb(29, 67, 24);
+    color: white;
+}
